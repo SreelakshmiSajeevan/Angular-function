@@ -1,0 +1,24 @@
+ <h5>{{title}}</h5>
+  <h5>{{data}}</h5>
+  <h5>{{data==100}}</h5>
+  <h5>{{data==300}}</h5>
+  <!-- <h5>{{data=300}}</h5> -->
+  <h5>{{data+30}}</h5>
+  <!-- <h5>{{data++}}</h5> -->
+  <h5>{{getValue()}}</h5>
+<app-user></app-user>
+<app-user-list></app-user-list>
+<app-student-list></app-student-list>
+<app-country></app-country>
+<app-login></app-login>
+<button (click)="getName()">Click String</button>
+<br>
+<button (click)="getNameParameter('Anu')">Click Name</button>
+<br>
+<button (click)="getAny(123)">Click Any</button>
+<br>
+<button (click)="getOR(123)">Click Number</button>
+<br>
+<button (click)="getOR('Hari')">Click String</button>
+<br>
+<button (click)="getStrict('Strict')">Click Strict</button>
